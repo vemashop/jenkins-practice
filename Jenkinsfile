@@ -27,7 +27,9 @@ pipeline {
                script{
                  sh """
                     echo "Hello, this is build"
-                    
+
+                    echo "trigger"
+
                     echo "Project: $PROJECT"
 
                     echo "Hello ${params.PERSON}"
