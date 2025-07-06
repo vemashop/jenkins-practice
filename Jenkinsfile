@@ -26,7 +26,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-               script{
+               script {
                  sh """
                     echo "Hello, this is build"
 
